@@ -1,0 +1,94 @@
+
+
+body {
+	font-family: KG Girl On Fire;
+	font-size: 35px;
+    line-height: 1cm;
+}
+
+fieldset {
+	width: 25%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div {
+	text-align: center;
+    line-height: .25cm;
+}
+
+h1 {
+	color: #e26a8d;
+	text-align: center;
+}
+
+h2 {
+	color: #e26a8d;
+	text-align: center;
+}
+
+h3 {
+	color: #e26a8d;
+	line-height: .5cm;
+}
+
+h5	 {
+	color: #e26a8d;
+	line-height: .8cm;
+	width: 50%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+hr {
+	width: 50%;
+}
+
+.create {
+	border-radius: 1em 3em 1em 3em;
+	-moz-border-radius: 1em 3em 1em 3em;
+	-webkit-border-radius: 1em 3em 1em 3em;
+}
+
+
+.heading {
+	color: #e26a8d;
+	font-size: 35px;
+}
+
+form {
+	font-family: Gill sans;
+	font-size: 15px;
+    line-height: .5cm;
+}
+
+p {
+	font-family: Gill sans;
+	width: 50%;
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 20px;
+	line-height: .75cm;
+}
+
+img {
+	margin-right: auto;
+	margin-left: auto;
+}	
+
+li {
+	font-family: Gill sans;
+	font-size: 15px;
+    line-height: .5cm;
+}
+
+dl {
+	width: 50%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+table {
+	margin-right: auto;
+	margin-left: auto;
+}

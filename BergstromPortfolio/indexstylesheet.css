@@ -1,0 +1,25 @@
+
+body {
+	font-family: KG Girl On Fire;
+    font-size: 65px;
+    text-align: center;
+    line-height: .05cm;
+}
+
+h1 {
+	color: #e26a8d;
+}
+
+table {
+	line-height: 1.5cm;
+	width: 25%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+td {
+	color: #e26a8d;
+	padding-right: 20px;
+	padding-left: 20px; 
+}
+
