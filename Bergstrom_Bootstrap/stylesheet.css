@@ -1,0 +1,111 @@
+
+body {
+	background-color: #005da3;
+	font-family: avenir;
+}
+
+div {
+    background-color: #005da3;
+    text-align: center;
+}
+
+img {
+    display: block;
+}
+
+text{
+    color: #f40002;
+}
+
+.wholecast{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.thumbnail{
+    width: 350px;
+}
+
+.home{
+    text-align: center;
+}
+
+.glyphicon{
+    color: #f40002;
+}
+
+.topnav{
+	font-family: avenir;
+    font-size: 35px;
+    line-height: .35cm;
+}
+
+.aboutds{
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 10px;
+    color: #dce0e3;
+}
+
+.cast{
+    text-align: left;
+    font-size: 24px;
+    color: #f40002;
+    font-weight: bold;
+}
+
+.jumbotron{
+    padding-top:1px;
+    padding-bottom:30px;
+    margin-bottom:30px;
+    color:inherit;
+    background-color:#f40002
+}
+
+.container{
+}
+
+.highlight{
+    font-size: 24px;
+}
+
+p {
+    padding-left: 10px;
+}
+
+.black {
+    color: #dce0e3;
+}
+
+blockquote {
+	width: 50%;
+	padding-left: 90px;
+    color: #dce0e3;
+    background-color: #005da3;
+    border-left: 0px;
+}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f40002;
+    width: 1000px
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+    display: inline-block;
+    color: #dce0e3;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.5s;
+    font-size: 25px;
+}
+
+ul.topnav li a:hover {background-color: #001195;}
+ul.topnav li.icon {display: none;}
+

@@ -1,9 +1,12 @@
-
+@font-face {
+	font-family: "KG Girl On Fire";
+	src: url("http://www.dafont.com/kg-girl-on-fire.font");
+}
 
 body {
 	font-family: KG Girl On Fire;
 	font-size: 35px;
-    line-height: 1cm;
+	line-height: .05cm;
 }
 
 fieldset {
@@ -14,7 +17,7 @@ fieldset {
 
 div {
 	text-align: center;
-    line-height: .25cm;
+	line-height: .25cm;
 }
 
 h1 {
@@ -29,10 +32,9 @@ h2 {
 
 h3 {
 	color: #e26a8d;
-	line-height: .5cm;
 }
 
-h5	 {
+h5 {
 	color: #e26a8d;
 	line-height: .8cm;
 	width: 50%;
@@ -59,7 +61,7 @@ hr {
 form {
 	font-family: Gill sans;
 	font-size: 15px;
-    line-height: .5cm;
+	line-height: .25cm;
 }
 
 p {
@@ -79,7 +81,7 @@ img {
 li {
 	font-family: Gill sans;
 	font-size: 15px;
-    line-height: .5cm;
+	-webkit-transition: background-color 4s;
 }
 
 dl {
@@ -91,4 +93,40 @@ dl {
 table {
 	margin-right: auto;
 	margin-left: auto;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #e26a8d;
+}
+
+li {
+	float: left;
+}
+
+.bar {
+	font-family: KG Girl On Fire;
+	font-size: 28px;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	-webkit-transition: background-color 4s;
+	text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+	background-color: #111;
+}
+
+li a.active {
+	background-color: #f2b1c4;
+	color: #707070;
 }

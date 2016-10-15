@@ -1,25 +1,17 @@
-
-
-body {
-	background-image: url("images/scallop.jpg");
-	background-repeat: repeat-x;
-	font-family: KG Girl On Fire;
-	font-size: 35px;
-    line-height: 1cm;
+@font-face {
+	font-family: "KG Girl On Fire";
+	src: url("http://www.dafont.com/kg-girl-on-fire.font");
 }
 
-fieldset {
-	width: 25%;
-	margin-left: auto;
-	margin-right: auto;
-	background: rgba(226,106,141,0.2);
-
-	
+body {
+	font-family: "KG Girl On Fire";
+	font-size: 35px;
+	line-height: .75cm;
 }
 
 div {
 	text-align: center;
-    line-height: .25cm;
+	line-height: .25cm;
 }
 
 h1 {
@@ -29,12 +21,11 @@ h1 {
 
 h3 {
 	color: #e26a8d;
-	line-height: .05cm;
 }
 
 h4 {
 	line-height: .025cm;
-	font-family: Gill sans;
+	font-family: "Gill sans";
 	font-size: 14px;
 	font-weight: normal;
 }
@@ -43,6 +34,12 @@ ol {
 	width: 25%;
 	margin-right: auto;
 	margin-left: auto;
+	color: #707070;
+}
+
+.learn {
+	font-family: "Gill sans";
+	font-size: 18px;
 }
 
 .create {
@@ -57,10 +54,11 @@ ol {
 	text-align: left;
 }
 
-form {
+.hobby a {
 	font-family: Gill sans;
 	font-size: 15px;
-    line-height: .5cm;
+	line-height: .5cm;
+	color: #707070;
 }
 
 p {
@@ -75,19 +73,54 @@ img {
 	margin-left: auto;
 }	
 
-li {
-	font-family: Gill sans;
-	font-size: 15px;
-    line-height: .5cm;
-}
-
-dl {
-	width: 50%;
-	margin-right: auto;
-	margin-left: auto;
-}
-
 table {
 	margin-right: auto;
 	margin-left: auto;
+}
+
+li {
+	font-family: Gill sans;
+	font-size: 15px;
+	line-height: .05cm;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #e26a8d;
+}
+
+.bar{
+	font-family: KG Girl On Fire;
+	font-size: 28px;
+	float: left;
+}
+
+.heading {
+	text-align: left;
+}
+
+h4 a {
+	color: #707070;
+}
+
+.bar a {
+	display: block;
+	text-align: center;
+	padding: 14px 16px;
+	-webkit-transition: background-color 4s;
+	text-decoration: none;
+	color: white;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+	background-color: #111;
+}
+
+li a.active {
+	background-color: #f2b1c4;
+	color: #707070;
 }
